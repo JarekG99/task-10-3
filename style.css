@@ -1,0 +1,40 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 100vh;
+    background: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#carousel {
+    display:flex;
+    border: 5px solid #fff;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+  }
+ul {
+  display:inline-flex;
+  width: 2000px;
+  list-style-type: none;
+}
+li {
+  width: 400px;
+  height:300px;
+  display:inline-flex;
+  float: inherit;
+}
+li img {
+  width:100%;
+  height: 100%;
+	display: block;
+	object-fit: cover;
+}
